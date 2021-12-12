@@ -1,0 +1,63 @@
+body{
+    background-image: url("../images/background.jpg");
+    height: 100vh !important;
+}
+
+.body{
+    height: 80vh;
+    border-bottom: 10px solid rgb(21, 114, 75);
+}
+
+.navbar-brand{
+    width: 10vw;
+    background-color: rgb(21, 114, 75);
+    color: #FFF !important;
+    justify-content: center;
+    display: flex;
+}
+
+/*===================
+        Main-1
+===================*/
+
+.main-1{
+    background-color: #FFF;
+}
+
+.about{
+    color: rgb(21, 114, 75);
+    font-size: 2rem;
+}
+
+/*===================
+        Main-2
+===================*/
+
+.main-2{
+    background-color: #FFF;
+    height: fit-content;
+}
+
+.connect{
+    color:rgb(21, 114, 75);
+    font-size: 1.5rem;
+}
+
+.social-git, .social-stack, .social-linkedin{
+    color: grey;
+}
+
+.social-git:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.social-linkedin:hover{
+    color: #0077B5;
+    cursor: pointer;
+}
+
+.social-stack:hover{
+    color: #F48024;
+    cursor: pointer;
+}
