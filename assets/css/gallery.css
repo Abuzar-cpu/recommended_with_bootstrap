@@ -16,6 +16,11 @@ body{
     display: flex;
 }
 
+.nav-link:hover{
+    font-weight: bold;
+    color: rgb(21, 114, 75);
+}
+
 /*===================
         Main-1
 ===================*/

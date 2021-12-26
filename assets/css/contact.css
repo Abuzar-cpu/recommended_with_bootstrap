@@ -16,6 +16,11 @@ body{
     display: flex;
 }
 
+.nav-link:hover{
+    font-weight: bold;
+    color: rgb(21, 114, 75);
+}
+
 /*===================
         Main-1
 ===================*/
@@ -40,6 +45,10 @@ body{
 .connect{
     color:rgb(21, 114, 75);
     font-size: 1.5rem;
+}
+
+#socials{
+    justify-content: space-between;
 }
 
 .social-git, .social-stack, .social-linkedin{

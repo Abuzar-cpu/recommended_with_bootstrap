@@ -16,6 +16,16 @@ body{
     display: flex;
 }
 
+.nav-link:hover{
+    font-weight: bold;
+    color: rgb(21, 114, 75);
+}
+
+.navbar-brand{
+    padding: 1vw;
+    width: fit-content;
+}
+    
 /*===================
         Main-1
 ===================*/
@@ -60,4 +70,72 @@ body{
 .social-stack:hover{
     color: #F48024;
     cursor: pointer;
+}
+
+
+/*
+    Media Queries
+*/
+
+@media screen and (max-width: 640px)
+{
+    .body{
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-1{
+        width: 100%;
+    }
+
+    .main-2{
+        margin: 3vh 0;
+        width: 100%;
+    }
+
+    .socials{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .body{
+        height: fit-content;
+    }
+
+    .main-1{
+        width: 100%;
+    }
+
+    .main-2{
+        margin: 3vh 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .socials{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    .body{
+        display: flex;
+        height: 100vh;
+        justify-content: space-between;
+    }
+    .main-1{
+        width: 60%;
+    }
+
+    .main-2{
+        width: fit-content;
+    }
 }
