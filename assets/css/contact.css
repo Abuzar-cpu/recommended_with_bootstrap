@@ -85,7 +85,7 @@ body{
 @media screen and (max-width: 640px)
 {
     .body{
-        height: fit-content;
+        height: 90vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -110,7 +110,7 @@ body{
 
 @media screen and (min-width: 640px) {
     .body{
-        height: fit-content;
+        height: 90vh;
     }
 
     .main-1{
